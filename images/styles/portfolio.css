@@ -83,7 +83,7 @@ main{
     margin-bottom: 30px;
 
 }
-.section-description{
+.section-description,.what-i-do{
     text-align: center;
     color: #757575;
     font-size: 18px;
@@ -92,6 +92,7 @@ main{
 }
 .about-info-container{
     display: flex;
+    justify-content: space-around;
 }
 .about .info-title{
     font-size: 20px;
@@ -102,6 +103,11 @@ main{
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
+
+    /* what i do style */
+
+
+
     
 
 }
