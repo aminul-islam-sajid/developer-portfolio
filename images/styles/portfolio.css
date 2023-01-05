@@ -2,7 +2,12 @@
     margin: none;
     font-family: 'Open Sans', sans-serif;
 }
-
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../header_bg.png"),url("../developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -56,5 +61,47 @@ nav li{
 .banner-dis{
     color: #757575;
     margin-bottom: 30px;
+
+}
+/* main saction */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about{
+    margin-top: 130px;
+    background-color:#FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+
+}
+.section-title{
+   
+    margin-bottom: 30px;
+
+}
+.section-description{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+.about-info-container{
+    display: flex;
+}
+.about .info-title{
+    font-size: 20px;
+    color:#757575;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    
 
 }
